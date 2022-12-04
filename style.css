@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Paytone+One&display=swap');
+/* green: #66ff6e 
+   background: #0f0f23 
+   #05386B
+   #379683
+   #5CDB95
+   #8EE4AF
+   #EDF5E1
+   */
+
+
+* {
+    font-family: 'Nunito', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:#5CDB95;
+}
+
+
+.title {
+    font-family: 'Paytone One', cursive;
+    /* font-family: 'Permanent Marker', cursive; */
+    color: #280669;
+    font-size: 36pt;
+}
+
+.question {
+    font-family: 'Paytone One', cursive;
+    color: #280669;
+    font-size: 24pt;
+}
+
+
+.game {
+    /* border: solid #05386B 10px; */
+    padding: 20px;
+    padding-bottom: 20px;
+    width: 70%;
+    background-color: #EDF5E1;
+    box-shadow: 10px 10px 3px 0px #379683;
+    
+}
+
+h1 { 
+    display: block;
+    font-size: 1.75em;
+    /* margin-top: 0.5em; */
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    color: #280669;
+}
+
+h2 {
+    display: block;
+    font-size: 1.7em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    color: #280669;
+}
+
+h3 {
+    display: block;
+    font-size: 0.7em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    color: #280669;
+}
+
+p { 
+    display: block;
+    font-size: 1.7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 0;
+    margin-right: 0;
+    color: #280669;
+}
+

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Paytone+One&display=swap');
+/* green: #66ff6e 
+   background: #0f0f23 
+   #05386B
+   #379683
+   #5CDB95
+   #8EE4AF
+   #EDF5E1
+   */
+
+
+* {
+    font-family: 'Lato', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.title {
+    font-family: 'Paytone One', cursive;
+    /* font-family: 'Permanent Marker', cursive; */
+    color: #280669;
+    font-size: 36pt;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #5CDB95;
+}
+
+.game {
+    width: 80%;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    grid-template-rows: repeat(2, 1fr);
+    /* border: solid black 1px; */
+}
+
+.round1, .round2, .round3, .round4, .round5, .round6 {
+    /* border: solid #05386B 2px; */
+    background-color: #EDF5E1;
+    color: #280669;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* box-shadow: 8px 8px 0px 0px #8EE4AF; */
+}
+
+.round-ongoing1, .round-ongoing2, .round-ongoing3, .round-ongoing4, .round-ongoing5, .round-ongoing6 {
+    /* border: solid #05386B 2px; */
+    background-color: #379683;
+    color: #280669;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 8px 8px 3px 0px #0e6856;
+
+}
+.round-done1, .round-done2, .round-done3, .round-done4, .round-done5, .round-done6 {
+    /* border: solid #05386B 2px; */
+    background-color: #280669;
+    color: #EDF5E1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 8px 8px 3px 0px #379683;
+}
+
+.footer { 
+    display: block;
+    font-size: 1em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 0;
+    margin-right: 0;
+    color: #280669;
+}
