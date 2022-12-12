@@ -1,6 +1,6 @@
 
 const rounds = [1,2,3,4]
-const solutions = ["aaa", "qqq", "www", "stonewall"]
+const solutions = [["bacalhau à brás","bacalhau a bras"], ["revolutions","revolution"], ["5","five", "number five", "number 5", "mambo number 5", "mambo number five"], ["stonewall"]]
 let gameBox = document.querySelector('.game')
 
 
@@ -29,7 +29,7 @@ const start = (x) => {
     subButton.onclick = function(){
         let answer = document.getElementById(answerID).value
         
-        if (answer == solutions[x-1]) {
+        if (solutions[x-1].includes(answer.toLowerCase())) {
             startRound.className = "round-done" + x
             console.log('yay')
             inputField.remove()
